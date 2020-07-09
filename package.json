@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "serve -s -l tcp://0.0.0.0:8080 build",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
